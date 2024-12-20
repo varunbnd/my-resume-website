@@ -18,3 +18,9 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.classList.toggle('dark-mode');
     });
 });
+// Form Submission Handling
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Thank you for your message! I will get back to you soon.');
+    // Optionally, you can send this data to a server or an email service.
+});
